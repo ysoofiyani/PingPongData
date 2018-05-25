@@ -12,6 +12,7 @@
 		3B9D001F20B89AAB00C6D420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9D001D20B89AAB00C6D420 /* Main.storyboard */; };
 		3B9D002120B89AAC00C6D420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9D002020B89AAC00C6D420 /* Assets.xcassets */; };
 		3B9D002420B89AAC00C6D420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9D002220B89AAC00C6D420 /* LaunchScreen.storyboard */; };
+		3B9D002D20B89FD100C6D420 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9D002C20B89FD100C6D420 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3B9D002020B89AAC00C6D420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B9D002320B89AAC00C6D420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B9D002520B89AAC00C6D420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B9D002C20B89FD100C6D420 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		3B9D001820B89AAB00C6D420 /* PingPongData */ = {
 			isa = PBXGroup;
 			children = (
-				3B9D001920B89AAB00C6D420 /* AppDelegate.swift */,
-				3B9D001B20B89AAB00C6D420 /* ViewController.swift */,
-				3B9D001D20B89AAB00C6D420 /* Main.storyboard */,
+				3B9D002F20B8A8C100C6D420 /* View */,
+				3B9D002E20B8A8A700C6D420 /* Controller */,
 				3B9D002020B89AAC00C6D420 /* Assets.xcassets */,
+				3B9D001B20B89AAB00C6D420 /* ViewController.swift */,
+				3B9D002C20B89FD100C6D420 /* SecondViewController.swift */,
+				3B9D001D20B89AAB00C6D420 /* Main.storyboard */,
+				3B9D001920B89AAB00C6D420 /* AppDelegate.swift */,
 				3B9D002220B89AAC00C6D420 /* LaunchScreen.storyboard */,
 				3B9D002520B89AAC00C6D420 /* Info.plist */,
 			);
 			path = PingPongData;
+			sourceTree = "<group>";
+		};
+		3B9D002E20B8A8A700C6D420 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B9D002F20B8A8C100C6D420 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B9D002D20B89FD100C6D420 /* SecondViewController.swift in Sources */,
 				3B9D001C20B89AAB00C6D420 /* ViewController.swift in Sources */,
 				3B9D001A20B89AAB00C6D420 /* AppDelegate.swift in Sources */,
 			);
